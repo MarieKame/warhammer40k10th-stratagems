@@ -3,23 +3,351 @@
 	"Adepta Sororitas": {
 		"Hallowed Martyrs": {
 			"Divine Intervention": {
-				"types": "Epic Deed",
+				"flavour":"The pious believe that, in their moment of greatest need, the Emperor protects.",
+				"type": "Epic Deed",
 				"cost": 1,
-				"when": "any phase",
+				"when": "Any Phase",
 				"target": "One Adepta Sororitas Character unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.",
 				"effect": "Discard 1-3 Miracle dice. At the end of the phase, set the last destroyed model from your unit back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of any enemy models. That model is set back up with a number of wounds remaining equal to the number of Miracle dice you discarded.",
 				"restrictions": "You cannot select Saint Celestine as the target of this Stratagem. You cannot select the same Character as the target of this Stratagem more than once per battle."
+			},
+			"Suffering and Sacrifice": {
+				"flavour":"Suffering is a staple for the Adepta Sororitas, and a martyr's fate only bring glory to the God-Emperor.",
+				"type": "Strategic Ploy",
+				"cost": 1,
+				"when": "Start of the Fight Phase",
+				"target": "One Adepta Sororitas Infantry of Adepta Sororitas Walker from your army.",
+				"effect": "Until the end of the phase, each time an enemy model whose unit is within Engagement range of your unit selects its targets, it must select your unit as the target of its attacks.",
+				"restrictions": ""
+			},
+			"Righteous Vengeance": {
+				"flavour":"With the Emperor's light upon them, the righteous vengeance of the Sisters of Battle burns brighter.",
+				"type": "Battle Tactic",
+				"cost": 1,
+				"when": "Fight Phase",
+				"target": "One Adepta Sororitas unit from your army that has not been selected to fight this phase.",
+				"effect": "Until the end of the phase, each time a model in your unit makes an attack, you can re-roll the Hit roll and, if your unit is below Half-Strength, you can re-roll the Wound roll as well.",
+				"restrictions": ""
+			},
+			"Sanctified Immolation": {
+				"flavour":"The enemy must perish, even if we perish with them. The enemy must burn, even if we burn with them.",
+				"type": "Strategic Ploy",
+				"cost": 1,
+				"when": "Any Phase",
+				"target": "One Adepta Sororitas Vehicle model from your army with the Deadly Demise ability that was just destroyed. You can use this Stratagem on that model even though it was just destroyed.",
+				"effect": "Do not roll one D6 to determine whether mortal wounds are inflicted by your model's Deadly Demise ability. Instead, mortal wounds are automatically inflicted.",
+				"restrictions": ""
+			},
+			"Spirit of the Martyr": {
+				"flavour":"Even with their dying act, the Adepta Sororitas mete out the Emperor's judgement.",
+				"type": "Strategic Ploy",
+				"cost": 2,
+				"when": "Fight Phase, just after an enemy unit has selected its targets.",
+				"target": "One Adepta Sororitas unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+				"effect": "Until the end of that phase, each time a model in your unit is destroyed, if taht model has not fought this phase, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+				"restrictions": ""
+			},
+			"Praise the Fallen": {
+				"flavour":"The death of a Battle Sister only stirs the survivors to fight harder to exact swift vengeance.",
+				"type": "Strategic Ploy",
+				"cost": 1,
+				"when": "Your opponent's Shooting Phase, just after an enemy unit has shot.",
+				"target": "One Adepta Sororitas unit from your army that had one or more of its models destroyed as a result of the attacking unit's attacks.",
+				"effect": "Your unit can shoot as if it were your Shooting phase, but it must target only that enemy unit when doing so, and can only do so if that enemy unit is an elligible target.",
+				"restrictions": ""
 			}
 
 		},
 
 		"Penitent Host": {
+			"Final Redemption": {
+				"flavour":"Those seeking absolution in the eyes of the Emperor will gladly give their last drop of blood to defy his enemies.",
+				"type": "Epic Deed",
+				"cost": 1,
+				"when": "Any Phase",
+				"target": "One Penitent unit from your army that was just destroyed while it was within range of an objective marker you controlled. You can use this Stratagem on that unit even though it was just destroyed.",
+				"effect": "That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+				"restrictions": ""
+			},
+			"Purity of Suffering": {
+				"flavour":"Suffering is the penance by which the faithful affirm their devotions. To share in the agonies suffered by the God-Emperor and his saints without embracing death is the mark of fidelity to the Imperial Creed.",
+				"type": "Battle Tactic",
+				"cost": 1,
+				"when": "Your opponent's Shooting Phase or the Fight Phase, just after an enemy has selected its targets.",
+				"target": "One Penitent unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+				"effect": "Until the end of the phase, Penitent models in your unit have the Feel No Pain 4+ ability.",
+				"restrictions": ""
+			},
+			"Passion of the Penitent": {
+				"flavour":"The penitent are full of a burning passion to inflict suffering upon the faithless.",
+				"type": "Battle Tactic",
+				"cost": 1,
+				"when": "Fight Phase",
+				"target": "One Penitent unit from your army that has not been selected to fight this phase.",
+				"effect": "Until the end of the phase, each time a Penitent model in your unit makes a melee attack, a successful unmodified Hit roll of 5+ scores a Critical Hit.",
+				"restrictions": ""
+			},
+			"Lash of Guilt": {
+				"flavour":"Agony and guilt drive these sinners forward. Only by meeting the enemy in combat may they find repentance or, failling that, the comfort of death.",
+				"type": "Battle Tactic",
+				"cost": 1,
+				"when": "Your Movement Phase, just before a Penitent unit from your army Advances.",
+				"target": "That Penitent unit.",
+				"effect": "Until the end of the turn, your unit is elligible to declare a charge in a turn in which it Advanced. If your unit has the Penitent Engines keyword, do not make an advance roll for it; instead, until the end of the phase, add 6\" to the Move charecteristic of models in your unit.",
+				"restrictions": ""
+			},
+			"Boundless Zeal": {
+				"flavour":"The urge to absolve their sins and destroy the enemy drives the penitents to push their tortured bodies beyond their normal limits.",
+				"type": "Battle Tactic",
+				"cost": 1,
+				"when": "Your Movement Phase, just after an Adepta Sororitas unit from your army Falls Back.",
+				"target": "That Adepta Sororitas unit.",
+				"effect": "Until the endo of the turn, your unit is elligible to shoot or declare a charge in a turn in which it Fell Back. If your unit has the Penitent keyword, it is elligible to shoot and declare a charge in a turn in which it Fell Back.",
+				"restrictions": ""
+			},
+			"Devout Fanaticism": {
+				"flavour":"The God-Emperor's faithful followers, heedless of incoming fire, leap forth to deliver his furious judgement in the press of melee.",
+				"type": "Strategic Ploy",
+				"cost": 1,
+				"when": "Your opponent's Shooting Phase, just after an enemy unit has selected its targets.",
+				"target": "One Penitent unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+				"effect": "Roll one D6: your unit can be moved a distance in inches up to the result, but it must end that move as close as possible to the closest enemy unit (excluding Aircraft). When doing so, models in your unit can be moved within Engagement Range of enemy units.",
+				"restrictions": ""
+			}
+		},
 
+		"Bringers of Flame": {
+			"Divine Intervention": {
+				"flavour":"",
+				"type": "Epic Deed",
+				"cost": 1,
+				"when": "any phase",
+				"target": "",
+				"effect": "",
+				"restrictions": ""
+			},
+			"Divine Intervention": {
+				"flavour":"",
+				"type": "Epic Deed",
+				"cost": 1,
+				"when": "any phase",
+				"target": "",
+				"effect": "",
+				"restrictions": ""
+			},
+			"Divine Intervention": {
+				"flavour":"",
+				"type": "Epic Deed",
+				"cost": 1,
+				"when": "any phase",
+				"target": "",
+				"effect": "",
+				"restrictions": ""
+			},
+			"Divine Intervention": {
+				"flavour":"",
+				"type": "Epic Deed",
+				"cost": 1,
+				"when": "any phase",
+				"target": "",
+				"effect": "",
+				"restrictions": ""
+			},
+			"Divine Intervention": {
+				"flavour":"",
+				"type": "Epic Deed",
+				"cost": 1,
+				"when": "any phase",
+				"target": "",
+				"effect": "",
+				"restrictions": ""
+			},
+			"Divine Intervention": {
+				"flavour":"",
+				"type": "Epic Deed",
+				"cost": 1,
+				"when": "any phase",
+				"target": "",
+				"effect": "",
+				"restrictions": ""
+			}
+		},
+
+		"Army of Faith": {
+			"Divine Intervention": {
+				"flavour":"",
+				"type": "Epic Deed",
+				"cost": 1,
+				"when": "any phase",
+				"target": "",
+				"effect": "",
+				"restrictions": ""
+			},
+			"Divine Intervention": {
+				"flavour":"",
+				"type": "Epic Deed",
+				"cost": 1,
+				"when": "any phase",
+				"target": "",
+				"effect": "",
+				"restrictions": ""
+			},
+			"Divine Intervention": {
+				"flavour":"",
+				"type": "Epic Deed",
+				"cost": 1,
+				"when": "any phase",
+				"target": "",
+				"effect": "",
+				"restrictions": ""
+			},
+			"Divine Intervention": {
+				"flavour":"",
+				"type": "Epic Deed",
+				"cost": 1,
+				"when": "any phase",
+				"target": "",
+				"effect": "",
+				"restrictions": ""
+			},
+			"Divine Intervention": {
+				"flavour":"",
+				"type": "Epic Deed",
+				"cost": 1,
+				"when": "any phase",
+				"target": "",
+				"effect": "",
+				"restrictions": ""
+			},
+			"Divine Intervention": {
+				"flavour":"",
+				"type": "Epic Deed",
+				"cost": 1,
+				"when": "any phase",
+				"target": "",
+				"effect": "",
+				"restrictions": ""
+			}
 		}
 	},
 
 
 	"Space Marines": {
+		"Army of Faith": {
+			"Divine Intervention": {
+				"flavour":"",
+				"type": "Epic Deed",
+				"cost": 1,
+				"when": "any phase",
+				"target": "",
+				"effect": "",
+				"restrictions": ""
+			},
+			"Divine Intervention": {
+				"flavour":"",
+				"type": "Epic Deed",
+				"cost": 1,
+				"when": "any phase",
+				"target": "",
+				"effect": "",
+				"restrictions": ""
+			},
+			"Divine Intervention": {
+				"flavour":"",
+				"type": "Epic Deed",
+				"cost": 1,
+				"when": "any phase",
+				"target": "",
+				"effect": "",
+				"restrictions": ""
+			},
+			"Divine Intervention": {
+				"flavour":"",
+				"type": "Epic Deed",
+				"cost": 1,
+				"when": "any phase",
+				"target": "",
+				"effect": "",
+				"restrictions": ""
+			},
+			"Divine Intervention": {
+				"flavour":"",
+				"type": "Epic Deed",
+				"cost": 1,
+				"when": "any phase",
+				"target": "",
+				"effect": "",
+				"restrictions": ""
+			},
+			"Divine Intervention": {
+				"flavour":"",
+				"type": "Epic Deed",
+				"cost": 1,
+				"when": "any phase",
+				"target": "",
+				"effect": "",
+				"restrictions": ""
+			}
+		}
+	},
 
+
+	"Death Guard": {
+		"Army of Faith": {
+			"Divine Intervention": {
+				"flavour":"",
+				"type": "Epic Deed",
+				"cost": 1,
+				"when": "any phase",
+				"target": "",
+				"effect": "",
+				"restrictions": ""
+			},
+			"Divine Intervention": {
+				"flavour":"",
+				"type": "Epic Deed",
+				"cost": 1,
+				"when": "any phase",
+				"target": "",
+				"effect": "",
+				"restrictions": ""
+			},
+			"Divine Intervention": {
+				"flavour":"",
+				"type": "Epic Deed",
+				"cost": 1,
+				"when": "any phase",
+				"target": "",
+				"effect": "",
+				"restrictions": ""
+			},
+			"Divine Intervention": {
+				"flavour":"",
+				"type": "Epic Deed",
+				"cost": 1,
+				"when": "any phase",
+				"target": "",
+				"effect": "",
+				"restrictions": ""
+			},
+			"Divine Intervention": {
+				"flavour":"",
+				"type": "Epic Deed",
+				"cost": 1,
+				"when": "any phase",
+				"target": "",
+				"effect": "",
+				"restrictions": ""
+			},
+			"Divine Intervention": {
+				"flavour":"",
+				"type": "Epic Deed",
+				"cost": 1,
+				"when": "any phase",
+				"target": "",
+				"effect": "",
+				"restrictions": ""
+			}
+		}
 	}
 }
