@@ -162,7 +162,7 @@
 				"effect": "Until the end of the phase, each time a model in your unit makes a ranged attack that targets an enemy unit within 12\" that is also within range of an objective marker, add 1 to the Wound roll. If one or more enemy models are destroyed as the result of those attacks, select one of those destroyed models; that destroyed model's unit must take a Battle-Shock test.",
 				"restrictions": ""
 			},
-			"Blazing Fire": {
+			"Blazing Ire": {
 				"flavour":"The transports of the Adepta Sororitas are mobile shrines. The Sisters within this vehicle recite psalms of righteous hatred and destruction before emerging to obliterate their foes.",
 				"type": "Battle Tactic",
 				"cost": 1,
