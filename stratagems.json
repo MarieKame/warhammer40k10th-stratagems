@@ -93,7 +93,7 @@
 				"cost": 1,
 				"when": "Your Movement Phase, just before a Penitent unit from your army Advances.",
 				"target": "That Penitent unit.",
-				"effect": "Until the end of the turn, your unit is elligible to declare a charge in a turn in which it Advanced. If your unit has the Penitent Engines keyword, do not make an advance roll for it; instead, until the end of the phase, add 6\" to the Move charecteristic of models in your unit.",
+				"effect": "Until the end of the turn, your unit is elligible to declare a charge in a turn in which it Advanced. If your unit has the Penitent Engines keyword, do not make an advance roll for it; instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit.",
 				"restrictions": ""
 			},
 			"Boundless Zeal": {
@@ -117,116 +117,116 @@
 		},
 
 		"Bringers of Flame": {
-			"Divine Intervention": {
-				"flavour":"",
-				"type": "Epic Deed",
+			"Shield of Aversion": {
+				"flavour":"The Sisters of Battle gird themselves with the strength of their faith. It is a shield of repulsion that rejects the heretical cunning of their ennemies.",
+				"type": "Battle Tactic",
 				"cost": 1,
-				"when": "any phase",
-				"target": "",
-				"effect": "",
+				"when": "Your opponent's Shooting Phase or the Fight Phase, just after an enemy unit has selected its targets.",
+				"target": "One Adepta Sororitas unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+				"effect": "Until the end of the phase, each time an attck targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
 				"restrictions": ""
 			},
-			"Divine Intervention": {
-				"flavour":"",
-				"type": "Epic Deed",
+			"Righteous Blows": {
+				"flavour":"As the faithful strike in righteous anger, they feel the Emperor's hand adding strength to their blows.",
+				"type": "Battle Tactic",
 				"cost": 1,
-				"when": "any phase",
-				"target": "",
-				"effect": "",
+				"when": "Fight Phase",
+				"target": "One Adepta Sororitas unit from your army that has not been selected to fight this phase.",
+				"effect": "Until the end of the phase, melee weapons equipped by models in your unit have the Lethal Hits ability. If one or more enemy models are destroyed as the result of attacks made by those weapons this phase, select one of those destroyed models; that destroyed model's unit take a Battle-Shock test.",
 				"restrictions": ""
 			},
-			"Divine Intervention": {
-				"flavour":"",
-				"type": "Epic Deed",
+			"Carry Forth the Faithful": {
+				"flavour":"Congregated within a transport, the Battle Sisters recite bellowing prayers so that the whole vehicle echoes to furious piety.",
+				"type": "Strategic Ploy",
 				"cost": 1,
-				"when": "any phase",
-				"target": "",
-				"effect": "",
+				"when": "Your Movement Phase, just before an Adepta Sororitas Transport model from your army Advances.",
+				"target": "That Adepta Sororitas Transport model.",
+				"effect": "Until the end of the turn, you can re-roll Advance rolls made for your Transport, and units can disembark from your Transport even though it Advanced. Units that do so count as having made a Normal move, and cannot declare a charge this turn.",
 				"restrictions": ""
 			},
-			"Divine Intervention": {
-				"flavour":"",
-				"type": "Epic Deed",
+			"Cleansing Flames": {
+				"flavour":"Burn the mutant. Burn the heretic. Burn the witch.",
+				"type": "Battle Tactic",
 				"cost": 1,
-				"when": "any phase",
-				"target": "",
-				"effect": "",
+				"when": "Your Shooting Phase",
+				"target": "One Adepta Sororitas unit from your army that has not been selected to fight this phase.",
+				"effect": "Until the end of the phase, Torrent weapons equipped by models in your unit have the Devastating Wounds ability.",
 				"restrictions": ""
 			},
-			"Divine Intervention": {
-				"flavour":"",
-				"type": "Epic Deed",
+			"Rites of Fire": {
+				"flavour":"At close range, the Adepta Sororitas unleash the full devastating potential of their blessed weapons.",
+				"type": "Battle Tactic",
 				"cost": 1,
-				"when": "any phase",
-				"target": "",
-				"effect": "",
+				"when": "Your Shooting Phase",
+				"target": "One Adepta Sororitas unit from your army that disembarked from a Transport this turn and has not been selected to shoot this phase.",
+				"effect": "Until the end of the phase, each time a model in your unit makes a ranged attack that targets an enemy unit within 12\" that is also within range of an objective marker, add 1 to the Wound roll. If one or more enemy models are destroyed as the result of those attacks, select one of those destroyed models; that destroyed model's unit must take a Battle-Shock test.",
 				"restrictions": ""
 			},
-			"Divine Intervention": {
-				"flavour":"",
-				"type": "Epic Deed",
+			"Blazing Fire": {
+				"flavour":"The transports of the Adepta Sororitas are mobile shrines. The Sisters within this vehicle recite psalms of righteous hatred and destruction before emerging to obliterate their foes.",
+				"type": "Battle Tactic",
 				"cost": 1,
-				"when": "any phase",
-				"target": "",
-				"effect": "",
+				"when": "Your opponent's Shooting Phase, just after an enemy unit has shot.",
+				"target": "One Adepta Sororitas Transport unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+				"effect": "One unit embarked within your Transport can disembark as if it were your Movement Phase, and can then shoot as if it were your Shooting Phase, but must target only that enemy unit when doing so, and can only do so if that enemy unit is an elligible target.",
 				"restrictions": ""
 			}
 		},
 
 		"Army of Faith": {
-			"Divine Intervention": {
-				"flavour":"",
-				"type": "Epic Deed",
+			"Shield of Faith": {
+				"flavour":"There is no armor as resilient as conviction itself.",
+				"type": "Battle Tactic",
 				"cost": 1,
-				"when": "any phase",
-				"target": "",
-				"effect": "",
+				"when": "Any Phase, jsut after an Adepta Sororitas unit from your army suffers a Mortal Wound",
+				"target": "That Adepta Sororitas unit, or one friendly Adepta Sororitas Jump Pack unit within 3\" of it.",
+				"effect": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability against Mortal Wounds. If you targeted an Adepta Sororitas Jump Pack unit from your army with this Stratagem, then until the end of the phase, whild a friend Adepta Sororitas unit if within 3\" of your unit, models in that unit have the Feel No Pain 5+ ability against Mortal Wounds.",
 				"restrictions": ""
 			},
-			"Divine Intervention": {
-				"flavour":"",
-				"type": "Epic Deed",
+			"Light of the Emperor": {
+				"flavour":"The Emperor's radiance shines upon his warriors, magnifying their purity in their darkest hour.",
+				"type": "Battle Tactic",
 				"cost": 1,
-				"when": "any phase",
-				"target": "",
-				"effect": "",
+				"when": "Command Phase",
+				"target": "One Adepta Sororitas unit from your army.",
+				"effect": "Until the end of the turn, your unit is blessed. While a unit is blessed, it can ignore any or all modifiers to the following: the profile characteristics of its models; the Weapon Skill or Balistic Skill characteristics of weapons equipped by its models; any roll or test made for it (excluding modifiers to Saving Throws). If your unit has the Jump Pack keyword, until the end of the turn, while a friendly Adepta Sororitas unit is within 3\" of your unit, that friendly unit is also blessed.",
 				"restrictions": ""
 			},
-			"Divine Intervention": {
-				"flavour":"",
-				"type": "Epic Deed",
+			"Faith and Fury": {
+				"flavour":"The righteous zeal of the Sisters of Battle burns bright as they charge towards their foes.",
+				"type": "Battle Tactic",
 				"cost": 1,
-				"when": "any phase",
-				"target": "",
-				"effect": "",
+				"when": "Fight Phase",
+				"target": "One Adepta Sororitas unit from your army that has not been selected to fight this phase.",
+				"effect": "Until the end of the phase, melee weapons equipped by models in your unit have the Lance ability. If one or more enemy models are destroyed as the result of your unit's attacks this phase, you gain 1 Miracle Dice.",
 				"restrictions": ""
 			},
-			"Divine Intervention": {
-				"flavour":"",
-				"type": "Epic Deed",
+			"Blinding Radiance": {
+				"flavour":"The Emperor's divinity manifests in golden halos, blinding the enemy with radiant light.",
+				"type": "Strategic Ploy",
 				"cost": 1,
-				"when": "any phase",
-				"target": "",
-				"effect": "",
+				"when": "Your opponent's Shooting Phase or the Fight Phase, just after an enemy unit has selected its targets.",
+				"target": "One Adepta Sororitas unit from your army that was selected as the target of one or more of the attacking unit's attacks, or one friendly Adepta Sororitas Jump Pack unit within 3\" of such a unit.",
+				"effect": "Until the end of the phase, each time an attck targets your unit, substract 1 from the Hit Roll. If you targeted an Adepta Sororitas Jump Pack unit from your army with this Stratagem, then until the end of the phase, while a friendly Adepta Sororitas unit is within 3\" of your unit, each time an attack targets that unit, substract 1 from the Hit Roll.",
 				"restrictions": ""
 			},
-			"Divine Intervention": {
-				"flavour":"",
-				"type": "Epic Deed",
+			"Divine Guidance": {
+				"flavour":"With miraculous precision, the blows of the Sisters of Battle strike the weak points of enemy armour. ",
+				"type": "Battle Tactic",
 				"cost": 1,
-				"when": "any phase",
-				"target": "",
-				"effect": "",
+				"when": "Your Shooting Phase or the Fight Phase.",
+				"target": "One Adepta Sororitas unit from your army that has not been selected to shoot or fight this phase.",
+				"effect": "Until the end of the phase, each time a model in your unit makes an attack, improve te Armour Penetration characteristic of that attack by 1. If one or more enemy models are destroyed as the result of any of those attacks, you gain 1 Miracle Dice.",
 				"restrictions": ""
 			},
-			"Divine Intervention": {
-				"flavour":"",
-				"type": "Epic Deed",
+			"Angelic Ascent": {
+				"flavour":"On wings of fire do the angelic warriors of the Orders Militant descent to battle.",
+				"type": "Strategic Ploy",
 				"cost": 1,
-				"when": "any phase",
-				"target": "",
-				"effect": "",
-				"restrictions": ""
+				"when": "End of your opponent's Fight Phase.",
+				"target": "One Adepta Sororitas Jump Pack unit from your army.",
+				"effect": "Remove your unit from the battlefield and place it into Strategic Reserves.",
+				"restrictions": "You cannot select a unit that is within Engagement Range of one or more enemy units."
 			}
 		}
 	},
