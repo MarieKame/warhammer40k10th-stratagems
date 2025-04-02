@@ -116,6 +116,63 @@
 			}
 		},
 
+		"Champions of Faith": {
+			"Shield of Denial": {
+				"flavour":"With so singular and fanatical a purpose, the Adepta Sororitas can will their injuries away, at least until the fight is done.",
+				"type": "Battle Tactic",
+				"cost": 1,
+				"when": "Any phase, just after a mortal wound is allocated to an Adepta Sororitas unit from your army.",
+				"target": "That Adepta Sororitas unit.",
+				"effect": ": Until the end of the phase, models in your unit have the Feel No Pain 6+ ability against mortal wounds. If your unit is Righteous, until the end of the phase, models in your unit have the Feel No Pain 5+ ability against mortal wounds instead.",
+				"restrictions": ""
+			},
+			"Suffer not the Unfaithful": {
+				"flavour":"No unclean foe can be permitted to stand between the Go‑Emperor’s sworn champions and their oathed duty. They must be struck down with unmerciful fury. ",
+				"type": "Strategic Ploy",
+				"cost": 1,
+				"when": "Fight Phase",
+				"target": "One Adepta Sororitas unit from your army that has not been selected to fight this phase.",
+				"effect": "Until the end of the phase, melee weapons equipped by models in your unit have the Lethal Hits ability. If one or more enemy models are destroyed as the result of attacks made by those weapons this phase, select one of those destroyed models; that destroyed model's unit take a Battle-Shock test.",
+				"restrictions": ""
+			},
+			"To the Heart of Heresy": {
+				"flavour":"Seizing their moment to drive like a burning blade through the enemy lines and complete their holy mission, these faithful strike with unstoppable might.",
+				"type": "Battle Tactic",
+				"cost": 1,
+				"when": "Fight Phase",
+				"target": "One Adepta Sororitas unit from your army that has not been selected to fight this phase",
+				"effect": "Until the end of the turn, improve the Strength characteristic of melee weapons equipped by models in your unit by 1. If your unit is Righteous, until the end of the phase, improve the Armour Penetration characteristic of melee weapons equipped by models in your unit by 1 as well.",
+				"restrictions": ""
+			},
+			"Path of the Righteous": {
+				"flavour":"When exemplars of the Imperial Creed stride to do the God‑Emperor’s will, little can slow their sacred procession.",
+				"type": "Battle Tactic",
+				"cost": 1,
+				"when": "Fight Phase",
+				"target": "One Adepta Sororitas unit from your army that has not been selected to fight this phase.",
+				"effect": ": Until the end of the turn, each time a model in your unit makes a Pile‑in or Consolidation move, it can move up to 6\" instead of up to 3\". When doing so, if your unit is Righteous, it does not need to end that move closer to the closest enemy model, provided it ends that move as close as possible to the closest enemy unit.",
+				"restrictions": ""
+			},
+			"Bastion of Faith": {
+				"flavour":"Unified in their inviolate dedication to fulfil their oaths to Him on the Throne, the Order’s elite form a rampart of ceramite and unyielding faith to throw back the desperate blows of the foe. ",
+				"type": "Battle Tactic",
+				"cost": 1,
+				"when": "Fight phase, just after an enemy unit has selected its targets.",
+				"target": "One Celestian Sacresants unit that was selected as the target of one or more of the attacking unit’s attacks.",
+				"effect": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll. In addition, if your unit is Righteous, you can select one other Celestian Sacresants unit from your army that is not Battle‑shocked and is within 6\" of your unit. Until the end of the phase, each time an attack targets that Celestian Sacresants unit, subtract 1 from the Hit roll as well.",
+				"restrictions": ""
+			},
+			"Indefatigable Dedication": {
+				"flavour":"Such champions of the God‑Emperor never stop fighting or striving for victory, transforming momentary retreats into another opportunity to purge the unclean and press on to their objective.",
+				"type": "Strategic Ploy",
+				"cost": 1,
+				"when": "Your Movement phase, just after an Adepta Sororitas unit from your army Falls Back.",
+				"target": "One Adepta Sororitas Transport unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+				"effect": "Until the end of the turn, your unit is eligible to shoot in a turn in which it Fell Back. If your unit is Righteous, until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back instead.",
+				"restrictions": ""
+			}
+		},
+
 		"Bringers of Flame": {
 			"Shield of Aversion": {
 				"flavour":"The Sisters of Battle gird themselves with the strength of their faith. It is a shield of repulsion that rejects the heretical cunning of their ennemies.",
@@ -147,7 +204,7 @@
 			"Cleansing Flames": {
 				"flavour":"Burn the mutant. Burn the heretic. Burn the witch.",
 				"type": "Battle Tactic",
-				"cost": 1,
+				"cost": 2,
 				"when": "Your Shooting Phase",
 				"target": "One Adepta Sororitas unit from your army that has not been selected to fight this phase.",
 				"effect": "Until the end of the phase, Torrent weapons equipped by models in your unit have the Devastating Wounds ability.",
@@ -165,7 +222,7 @@
 			"Blazing Ire": {
 				"flavour":"The transports of the Adepta Sororitas are mobile shrines. The Sisters within this vehicle recite psalms of righteous hatred and destruction before emerging to obliterate their foes.",
 				"type": "Battle Tactic",
-				"cost": 1,
+				"cost": 2,
 				"when": "Your opponent's Shooting Phase, just after an enemy unit has shot.",
 				"target": "One Adepta Sororitas Transport unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
 				"effect": "One unit embarked within your Transport can disembark as if it were your Movement Phase, and can then shoot as if it were your Shooting Phase, but must target only that enemy unit when doing so, and can only do so if that enemy unit is an elligible target.",
